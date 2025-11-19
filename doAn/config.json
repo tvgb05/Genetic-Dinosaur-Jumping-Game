@@ -1,0 +1,46 @@
+{
+    "game_settings": {
+        "screen_width": 800,
+        "screen_height": 400,
+        "ground_y": 310,
+        "fps": 120,
+        "base_speed": 5,
+        "max_speed": 30,
+        "speed_increase_interval": 500
+    },
+    "entity_dimensions": {
+        "dino": {
+            "stand_width": 40,
+            "stand_height": 40,
+            "duck_width": 50,
+            "duck_height": 30
+        },
+        "cactus": {
+            "min_width": 40,
+            "max_width": 60,
+            "min_height": 40,
+            "max_height": 60
+        }
+    },
+    "physics": {
+        "gravity": 0.2,
+        "jump_power": -6,
+        "fast_drop_gravity": 0.6,
+        "variable_jump": {
+            "enabled": true,
+            "hold_gravity": 0.25,
+            "max_hold_frames": 15
+        }
+    },
+    "ai_settings": {
+        "population_size": 50,
+        "mutation_rate": 0.2,
+        "mutation_power": 0.6,
+        "elitism_count": 5
+    },
+    "assets": {
+        "dino": "dino.png",
+        "dino_duck": "dino_duck.png",
+        "cactus": "cactus.png"
+    }
+}
